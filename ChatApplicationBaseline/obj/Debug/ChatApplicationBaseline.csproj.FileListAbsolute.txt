@@ -1,0 +1,10 @@
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\bin\Debug\ChatApplicationBaseline.exe.config
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\obj\Debug\ChatApplicationBaseline.csprojResolveAssemblyReference.cache
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\obj\Debug\ChatApplicationBaseline.FormChatbox.resources
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\obj\Debug\ChatApplicationBaseline.FormLogin.resources
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\obj\Debug\ChatApplicationBaseline.Properties.Resources.resources
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\obj\Debug\ChatApplicationBaseline.csproj.GenerateResource.Cache
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\bin\Debug\ChatApplicationBaseline.exe
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\bin\Debug\ChatApplicationBaseline.pdb
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\obj\Debug\ChatApplicationBaseline.exe
+c:\users\jp\documents\visual studio 2013\Projects\ChatApplicationBaseline\ChatApplicationBaseline\obj\Debug\ChatApplicationBaseline.pdb
