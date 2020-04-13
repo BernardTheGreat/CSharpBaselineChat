@@ -26,6 +26,8 @@ namespace ChatApplicationBaseline
         private void FormChatbox_Load(object sender, EventArgs e)
         {
             //StartReceivingMessages();
+
+            
         }
 
         private void SendMessage(string msg)
@@ -36,13 +38,13 @@ namespace ChatApplicationBaseline
                 MySqlCommand cmd = new MySqlCommand("Insert into messages(user_id,content) values(?,?)", Program.mysql_conn);
                 MySqlParameter param1 = new MySqlParameter();
                 MySqlParameter param2 = new MySqlParameter();
-                param1.Value = Program.current_user_id;
+                param1.Value = Program.current_user.Id;
                 param2.Value = msg;
                 cmd.Parameters.Add(param1);
                 cmd.Parameters.Add(param2);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Sent");
-
+                MessageBox.Show(Program.current_user.Id.ToString());
 
             }
             catch (Exception ex)
@@ -72,7 +74,7 @@ namespace ChatApplicationBaseline
 
 
             MySqlParameter param2 = new MySqlParameter();
-            param2.Value = Program.current_user_id;
+            param2.Value = Program.current_user;
 
             mysql_cmd.Parameters.Add(param1);
             mysql_cmd.Parameters.Add(param2);

@@ -20,13 +20,13 @@ namespace ChatApplicationBaseline
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormChatbox());
+            Application.Run(new FormLogin());
         }
 
         public static MySqlConnection mysql_conn = new MySqlConnection("Server=localhost;Database=chat;Uid=root;Pwd=d@tabas3;");
-        
-        public static ushort current_user_id = 1;
 
+
+        public static User current_user;
 
     }
 }

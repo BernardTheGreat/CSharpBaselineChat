@@ -8,5 +8,9 @@ namespace ChatApplicationBaseline
 {
     class User
     {
+        public UInt16 Id { get; set; }
+        public String Username { get; set; }
+        public String Password { get; set; }
     }
+
 }
